@@ -1,6 +1,6 @@
 main{
   width: 100%;
-  height: 900px;
+  height: 100vh;
   background-image: url(../backgroundImages/firewatch-sunrise-minimal-4k-u9.jpg);
   background-position: top;
   background-repeat: no-repeat;
@@ -8,9 +8,28 @@ main{
   background-size: cover;
 }
 main > .img{
-  z-index: 1;
   opacity: 0.3;
   position: fixed;
   top: 12%;
   left: 30%;
+}
+#scrollBc{
+  background-image: url(../backgroundImages/firewatch-background-scroll2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 100px;
+}
+#mainScroll{
+  position: absolute;
+  top: 100vh;
+  background-color: rgba(101,67,33,1);
+  width: 100%;
+  height: 700px;
+}
+#mainScroll > #rocksImage{
 }
